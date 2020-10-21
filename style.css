@@ -1,0 +1,398 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/*remove mobile website side view */
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  src: url(fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2);
+  font-family:lulo ;
+}
+  
+@font-face {
+
+    src: url(fonts/avera-lt.woff2);
+    font-family:avera ;
+}
+
+@font-face {
+
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-family:Montserrat ;
+}    
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header_logo_item{
+    background-color: #fff;
+  }
+
+  .number_content_item h3 {
+    width: 183px;
+  }
+  .number_2 h3{
+    width: 264px;
+  }
+
+  .number_3 h3{
+    width: 100%;
+  }
+  .barcode1{
+
+    margin: auto;
+  }
+  .barcode2{
+    display: none;
+  }
+  .footer_picture img{
+    margin: auto;
+    margin-top: 100px !important;
+  }
+  .footer_content_right{
+    background-color: #fff !important;
+  }
+  .form-group{
+    width: 300px !important;
+  }
+
+  .sec_titile {
+    margin-left: 26px !important;
+    font-family: lulo;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+    margin-top: -210px !important;
+    padding-bottom: 130px;
+}
+
+.sec_picture{
+  margin-top: 0px !important;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .number_content_item h3 {
+    width: 420px !important;
+  }
+  .number_2 h3{
+    width: 420px !important;
+  }
+
+  .number_3 h3{
+    width: 300px !important;
+  }
+
+  .footer_picture img{
+    margin: auto;
+    margin-top: 100px;
+  }
+  .sec_titile{
+    margin-left: 8px !important;
+    font-family: lulo;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .number_content_item h3 {
+    width: 100%;
+  }
+  .number_2 h3{
+    width: 100%;
+  }
+
+  .number_3 h3{
+    width: 100%;
+  }
+     .footer_picture img{
+    margin: auto;
+    margin-top: 17px !important;
+  }
+  .sec_titile h2{
+    font-family: lulo;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+    margin-top: 50px;
+    margin-left: -88px !important;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .number_content_item h3 {
+    width: 100%;
+  }
+  .number_2 h3{
+    width: 100%;
+  }
+
+  .number_3 h3{
+    width: 100%;
+  }
+     .footer_picture img{
+    margin: auto;
+    margin-top: 17px !important;
+  }
+  .sec_titile h2{
+    font-family: lulo;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+    margin-top: 50px;
+    margin-left: -88px !important;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .number_content_item h3 {
+    width: 134px !important;
+  }
+  .number_2 h3{
+    width: 134px !important;
+  }
+
+  .number_3 h3{
+    width: 100px !important;
+  }
+       .footer_picture img{
+    margin: auto;
+    margin-top: 17px !important;
+  }
+  .sec_titile {
+    font-family: lulo;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+    margin-top: 50px!important;
+    margin-left: -88px !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.main{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+}
+
+.blur {
+	background-color: rgba(255, 255, 255, 0.80);
+	height: 100%;
+	width: 100% !important;
+	background-size: cover;
+}
+.header_logo {
+
+		margin-top: 10px;
+
+	
+}
+
+
+.header_content {
+
+    font-size: 84px !important;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 149px;
+    font-family: lulo;
+    font-weight: 900 !important;
+    letter-spacing:0.5px
+}
+.header_content_part p{
+
+	line-height: 1.2;
+	letter-spacing: 3.5px;
+	font-family: lulo;
+}
+.header_content_part button {
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon_content h2{
+	font-family: lulo;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.number_part{
+	font-weight: 700;
+}
+.number_content_1{
+  font-family: lulo;
+  color: #FFEAE8;
+}
+
+.number_content_2{
+  font-family: lulo;
+  color: #ECDBFF;
+}
+
+.number_content_3{
+  font-family: lulo;
+  color: #D4EDEE;
+}
+
+.number_content_item h3 {
+  font-family:Montserrat ;
+  font-weight: 900;
+  font-size: 19px;
+  position: absolute;
+  margin-top: -29px;
+  line-height: normal;
+  color: #1D1E21;
+  text-align: left;
+  margin-left: -20px !important;
+  word-spacing: 2px;
+  width: 132px;
+}
+
+.number_2 h3 {
+  font-family:Montserrat ;
+  font-weight: 900;
+  font-size: 19px;
+  position: absolute;
+  margin-top: -21px;
+  line-height: normal;
+  color: #1D1E21;
+  text-align: left;
+  margin-left: -46px !important;
+  word-spacing: 2px;
+  width: 132px;
+}
+
+.number_3 h3 {
+  font-family:Montserrat ;
+  font-weight: 900;
+  font-size: 19px;
+  position: absolute;
+  margin-top: -22px;
+  line-height: normal;
+  color: #1D1E21;
+  text-align: left;
+  margin-left: -48px !important;
+  word-spacing: 2px;
+  width: 100px;
+}
+
+.number_part_btn button {
+  font-weight: 800;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.barcode_title h3{
+  font-family:Montserrat ;
+  font-weight:900;
+
+}
+
+.footer_content_left{
+  background-color: #1D1E21;
+}
+.footer_content_right{
+  background-color: #EE9C83;
+  padding: 50px;
+  margin: auto;
+  height: 483px;
+}
+
+.footer_tittle{
+  margin-top: 90px;
+  font-family:Montserrat ;
+  font-size: 21px;
+}
+
+
+ .form-group{
+  width: 150px;
+  margin: auto;
+} 
+
+.form-group input {
+  background: #1D1E21;
+  border: none;
+  border-bottom: 3px solid #fff;
+  margin-bottom: 10px;
+
+}
+.form-group input:hover{
+  border-bottom: 3px solid gray;
+}
+
+.footer_btn button {
+  border: 1px solid #fff;
+  color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sec_titile {
+  margin-left: -78px;
+  font-family: lulo;
+  font-weight: 900;
+  letter-spacing: 4.5px;
+}
+.sec_content_prt{
+  font-family:Montserrat ;
+}
+.blur2 {
+	background-color: rgba(255, 255, 255, 0.80);
+	height: 100%;
+	width: 152% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-group #usr {
+  background-color: #1D1E21;
+}
+
+.form-group #pwd {
+  background-color: #1D1E21;
+}
